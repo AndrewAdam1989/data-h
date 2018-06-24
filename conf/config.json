@@ -19,11 +19,12 @@
 		},
 		"streamSettings":
 		{
-			"network":"h2",
+			"network": "h2",
 			"httpSettings":
 			{
 				"path": "WS_PATH"
-			}
+			},
+			"security": "tls"
 		}
 	},
 	"inboundDetour": [],
